@@ -7,7 +7,7 @@ extras_require = {
 	'soundcard_playback': ['pyaudio'],
 }
 
-with open("README.rst", "rb") as f:
+with open("README.md", "rb") as f:
 	readme = f.read().decode('utf8')
 
 setup(
